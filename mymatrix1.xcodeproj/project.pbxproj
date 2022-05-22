@@ -6,8 +6,15 @@
 	objectVersion = 55;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4D16C7D2283AA033008EB287 /* matrix1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D16C7D0283AA033008EB287 /* matrix1.cpp */; };
+		4D16C7D5283AA05E008EB287 /* matrix1.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D16C7D4283AA05E008EB287 /* matrix1.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		4D16C7C9283AA01F008EB287 /* libmymatrix1.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libmymatrix1.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D16C7D0283AA033008EB287 /* matrix1.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = matrix1.cpp; sourceTree = "<group>"; };
+		4D16C7D4283AA05E008EB287 /* matrix1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = matrix1.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +31,8 @@
 		4D16C7C0283AA01F008EB287 = {
 			isa = PBXGroup;
 			children = (
+				4D16C7D0283AA033008EB287 /* matrix1.cpp */,
+				4D16C7D4283AA05E008EB287 /* matrix1.h */,
 				4D16C7CA283AA01F008EB287 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +52,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D16C7D5283AA05E008EB287 /* matrix1.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +113,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D16C7D2283AA033008EB287 /* matrix1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
